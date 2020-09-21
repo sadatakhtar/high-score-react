@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
+import HighScoreTableEthiopia from './components/HighScoreTableEthiopia';
+import GetTitle from './components/Title';
+
 import './App.css';
+import HighScoreScotland from './components/HighScoreScotland';
+import HighScoreEngland from './components/HighScoreEngland';
+import HighScoreBrazil from './components/HighScoreBrazil';
+import HighScoreColombia from './components/HighScoreColombia';
+import HighScoreTurkey from './components/HighScoreTurkey';
+import HighScoreIran from './components/HighScoreIran';
+import HighScoreBangladesh from './components/HighScoreBangladesh';
 
 function App() {
+
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+     <GetTitle />
+     <HighScoreTableEthiopia />
+     <HighScoreScotland />
+     <HighScoreEngland />
+     <HighScoreBrazil />
+     <HighScoreColombia />
+     <HighScoreTurkey />
+     <HighScoreIran />
+     <HighScoreBangladesh />
+     
+   </div>
   );
 }
 
